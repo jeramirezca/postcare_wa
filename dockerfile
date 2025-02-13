@@ -41,6 +41,7 @@
 # # Comando para iniciar la aplicación
 # CMD ["npm", "start"]
 
+
 FROM node:18-alpine
 
 WORKDIR /app
