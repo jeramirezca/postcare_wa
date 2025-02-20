@@ -15,7 +15,7 @@ export async function postRefreshToken(
 ): Promise<{ access: string }> {
   const response = await axios
     .post(
-      "http://localhost:8000/auth/jwt/refresh/",
+      "https://postcare-ag-100550183434.us-central1.run.app/auth/jwt/refresh/",
       { refresh: refreshToken },
       {
         headers: {
